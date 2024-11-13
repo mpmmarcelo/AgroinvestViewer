@@ -54,6 +54,6 @@ const requerimentoSchema: Schema = new Schema({
     versionKey: false //O campo __v é adicionado automaticamente pelo Mongoose para controlar a versão do documento em operações de atualização. Esse campo pode ser desabilitado se você não precisar dessa funcionalidade.
 });
 
-// Exportando o modelo com o nome 'User' para ser utilizado em outras partes do projeto
-const requerimento = mongoose.model<requerimentoInterface>('User', requerimentoSchema);
+// Exportando o modelo para ser utilizado em outras partes do projeto
+const requerimento = mongoose.model<requerimentoInterface>("Requerimento", requerimentoSchema);
 export default requerimento;
