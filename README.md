@@ -16,3 +16,13 @@ Estágios do processo:
 Utilizando Typescript + Nest será possível para a Secretaria de Obras emitir parecer sobre a conclusão do serviço, pelo computador ou até mesmo
 pelo celular do Secretário da pasta, tornando o processo mais transparente e evitando quaisquer problemas de divergência sobre o estado de execução.
 
+[V] Conexão com banco de dados;
+[V] Criação de rotas iniciais;
+[ ] Alterar estado de conclusão;
+    -> criar rota;
+    -> gravar estado, data e quem alterou.
+[ ] Acesso de usuários;
+[ ] Notificação de conclusão de processo no programa Agroinvest
+[ ] Frontend: Exibicão de processos a serem executados (facilita a visualização para a Secretaria de Obras)
+
+
