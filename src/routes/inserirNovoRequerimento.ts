@@ -9,8 +9,8 @@ export function inserirNovoRequerimento(app: FastifyInstance) {
                 ano: '2024',
                 data: '07-11-2024',
                 cpf: '123.456.789-00',
-                numeroCI: 'CI-789',
-                numeroProtocolo: 'PROT-1234',
+                numeroCI: '123',
+                numeroProtocolo: '1-788-2024',
                 isento: '',
                 concluido: '',
             });

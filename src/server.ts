@@ -3,7 +3,7 @@ import Fastify, {FastifyRequest, FastifyReply} from "fastify";
 import ConnectDB from "./db/db";
 
 import {inserirNovoRequerimento} from './routes/inserirNovoRequerimento';
-import {listarRequerimento} from "./routes/listarRequerimento";
+import {listarRequerimentos} from "./routes/listarRequerimentos";
 import {listarTodosRequerimentos} from './routes/listarTodosRequerimentos';
 
 const app = Fastify()
@@ -14,7 +14,7 @@ const startServer = async () => {
 
         //registra rotas externas no sv
         app.register(inserirNovoRequerimento); //ver no nlw como puxava do body
-        app.register(listarRequerimento); //pronto
+        app.register(listarRequerimentos); //pronto
         app.register(listarTodosRequerimentos); //pronto
 
         app.listen({port: 3333}).then(() => {
